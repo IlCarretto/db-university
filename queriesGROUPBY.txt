@@ -15,3 +15,6 @@ GROUP BY `student_id`
 ORDER BY average_vote
 
 4. Contare quanti corsi di laurea ci sono per ogni dipartimento
+SELECT COUNT(*) AS courses_number, `department_id` 
+FROM `degrees` 
+GROUP BY `department_id`
